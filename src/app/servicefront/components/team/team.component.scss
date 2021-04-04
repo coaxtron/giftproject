@@ -1,0 +1,31 @@
+section {
+    padding: 50px 0px;
+    background: #ffffff;
+    .team-title {
+        h1 {
+            font-size: 35px;
+            font-weight: 500;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        padding: 25px 0px 0px 0px;
+        .team-title {
+            h1 {
+                font-size: 18px;
+                font-weight: 500;
+            }
+        }
+    }
+    .uk-overlay {
+        padding: 10px 30px;
+    }
+    p {
+        text-align: center;
+    }
+    .social {
+        text-align: center;
+    }
+    .uk-overlay-default {
+        background: rgb(54, 53, 53);
+    }
+}

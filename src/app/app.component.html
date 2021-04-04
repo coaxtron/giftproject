@@ -1,0 +1,41 @@
+<mat-drawer-container hasBackdrop="true">
+
+    <mat-drawer #drawer class="example-sidenav" mode="over" style=" overflow: hidden;">
+        <service-side-nav (sidenav)="toggelNavbar()"></service-side-nav>
+    </mat-drawer>
+    <service-header (sidenav)="toggelNavbar()"></service-header>
+    <div class="main">
+
+        <router-outlet></router-outlet>
+        <service-footer id="contact"></service-footer>
+    </div>
+    <!-- Back To Top -->
+    <div class="scroll-to-top cursor" fxLayoutAlign="center center" [ngClass]="{'show-scrollTop': windowScrolled}">
+        <span (click)="scrollToTop()">
+      <i class="fa fa-chevron-up"></i>
+    </span>
+    </div>
+    <!-- Back To Top -->
+
+    <!-- Contact us -->
+    <!-- <div fxHide.xs class="contact-us circle cursor uk-inline" fxLayoutAlign="center center">
+        <span>
+      <i class="fa fa-phone-square icon" aria-hidden="true"></i>
+    </span>
+        <div uk-drop="pos: top-left">
+            <div class="uk-card uk-card-body uk-card-default">
+                <h1>CONTACT US</h1>
+                <h1>+91 8235503371</h1>
+            </div>
+
+        </div>
+    </div> -->
+
+
+    <!-- <a fxHide fxShow.xs href="https://api.whatsapp.com/send?text=Hi%20,I%20Need%20Service&phone=+918235503371" target="_blank" class="whatsapp circle cursor uk-inline" fxLayoutAlign="center center">
+        <span>
+      <i class="fa fa-whatsapp icon" aria-hidden="true"></i>
+    </span>
+    </a> -->
+    <!-- Contact us -->
+</mat-drawer-container>

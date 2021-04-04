@@ -1,0 +1,67 @@
+[{
+        "title": "FARMER SCHEMES",
+        "image": "assets/logo/logo1.png",
+        "url": "/service/farmer",
+        "icon": "fas fa-plug",
+        "logo": "assets/service/farmer.jpg",
+        "theme": "#075e54"
+    },
+    {
+        "title": "STUDENT SCHEMES",
+        "image": "assets/logo/logo1.png",
+        "url": "/service/student",
+        "logo": "assets/service/student.webp",
+        "icon": "fas fa-wrench",
+        "theme": "#075e54"
+    },
+    {
+      "title": "CSE JOBS",
+      "image": "assets/logo/logo1.png",
+      "url": "/service/CSE",
+      "logo": "https://pbs.twimg.com/profile_images/1273388596943183872/IP4RZD_K_400x400.jpg",
+      "icon": "fas fa-wrench",
+      "theme": "#075e54"
+  },{
+    "title": "EEE JOBS",
+    "image": "assets/logo/logo1.png",
+    "url": "/service/EEE",
+    "logo": "https://i.pinimg.com/originals/7f/b5/b6/7fb5b63c34cf82142319b728d58716d0.jpg",
+    "icon": "fas fa-wrench",
+    "theme": "#075e54"
+},
+{
+  "title": "MECHANICAL JOBS",
+  "image": "assets/logo/logo1.png",
+  "url": "/service/Mechanical",
+  "logo": "https://image.freepik.com/free-vector/mechanical-technology-logo_1032-113.jpg",
+  "icon": "fas fa-wrench",
+  "theme": "#075e54"
+},{
+"title": "CIVIL JOBS",
+"image": "assets/logo/logo1.png",
+"url": "/service/Civil",
+"logo": "https://blog.placeit.net/wp-content/uploads/2019/04/Civil_Engineering_logo_Linear.png",
+"icon": "fas fa-wrench",
+"theme": "#075e54"
+},
+{
+  "title": "AGRICULTURE JOBS",
+  "image": "assets/logo/logo1.png",
+  "url": "/service/Agriculture",
+  "logo": "data:image/png;base64,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",
+  "icon": "fas fa-wrench",
+  "theme": "#075e54"
+},
+
+{
+  "title": "ECE JOBS",
+  "image": "assets/logo/logo1.png",
+  "url": "/service/ECE",
+  "logo": "https://www.datagroup.de/wp-content/uploads/2019/05/Referenzen_ECE_Column.png",
+  "icon": "fas fa-wrench",
+  "theme": "#075e54"
+}
+
+
+
+]

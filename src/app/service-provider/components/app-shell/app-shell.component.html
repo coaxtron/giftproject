@@ -1,0 +1,21 @@
+
+<section class="app-container">
+    <div class="isLoading">
+      <ng-container *ngFor="let order of [1,2,3,5,6]">
+        <div class="loader order-card" fxLayout="column" fxLayoutGap="10px">
+          <div class="loader" fxLayout="row" fxLayoutGap="10px">
+            <div class="product-img elm"></div>
+            <div class="loader w-100" fxLayout="column" fxLayoutGap="10px">
+              <div class="elm product-detail w-25 "></div>
+              <div class="elm contain w-100"></div>
+              <div class="d-flex justify-content-end" fxLayout="row">
+                <div class="elm product-detail w-25"></div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </section>
+
+  

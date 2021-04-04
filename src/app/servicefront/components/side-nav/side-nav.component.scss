@@ -1,0 +1,76 @@
+// @import "partials/variables";
+.side-nav {
+    padding-top: 0px !important;
+    .profile-info {
+        background-color: #5e5050;
+        .profile-img {
+            border-radius: 50%;
+            width: 160px;
+            height: 100px;
+            margin-right: 10px;
+        }
+    }
+    .lar,
+    .las {
+        // font-size: x-large;
+        margin-right: 10px !important;
+    }
+    a {
+        // background-color: $m-brand-secondary-color;
+        padding: 25px !important;
+    }
+    .list {
+        padding: 15px;
+    }
+}
+
+::ng-deep {
+    .mat-expansion-panel-body {
+        padding: 0px !important;
+    }
+}
+
+.sideNavWidth {
+    width: 50px;
+    transition: all .15s ease-in;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    background-color: white;
+    .profile-info {
+        background-color: #516b8b;
+        padding: 15px;
+        .profile-img {
+            border-radius: 50%;
+            width: 110px;
+            height: 110px;
+            margin-right: 10px;
+        }
+    }
+    .nav-links {
+        border-bottom: 1px solid #dfdfdf;
+        .link {
+            padding: 15px 20px;
+        }
+    }
+    .logout-link {
+        padding: 15px 20px;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .sideNavWidth {
+        width: 100%;
+    }
+    .scroll-menu {
+        overflow-y: scroll;
+        max-height: 100%;
+    }
+}
+
+.scrll {
+    max-height: 100%;
+    overflow: scroll;
+}
+
+.scrll::-webkit-scrollbar {
+    width: 0;
+}

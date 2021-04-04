@@ -1,0 +1,66 @@
+section {
+  .uk-accordion-title {
+    text-align: center;
+    @media only screen and (max-width: 600px) {
+      font-size: 1rem;
+    }
+   }
+   .uk-accordion-content {
+     font-size: 1.2rem;
+     line-height: 1.5;
+     text-align: center;
+     @media only screen and (max-width: 600px) {
+      font-size: 1rem;
+    }
+   }
+
+    img {
+        max-width: 100%;
+    }
+    .about1 {
+        h1 {
+            font-size: 40px;
+            font-family: Poppins, sans-serif;
+            margin-bottom: 30px;
+            font-weight: 500;
+            border-bottom: solid;
+        }
+        p {
+            padding: 0px 75px;
+            text-align: center;
+            font-size: 1rem;
+        }
+        @media only screen and (max-width: 600px) {
+            p {
+                padding: 0px;
+            }
+            h1 {
+                font-size: 1.2rem;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    background-color: #ecf5ff;
+    padding: 100px 0px;
+    @media only screen and (max-width: 600px) {
+        padding: 20px 15px;
+    }
+    .about2 {
+        p {
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 1.2;
+        }
+        h1 {
+            font-weight: 500;
+            font-size: 24px;
+        }
+        @media only screen and (max-width: 600px) {
+            p {
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 1.4;
+            }
+        }
+    }
+}

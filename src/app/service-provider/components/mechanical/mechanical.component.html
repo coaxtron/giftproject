@@ -1,0 +1,34 @@
+<!-- <mat-progress-bar color="warn" *ngIf="showSpinner" mode="indeterminate"></mat-progress-bar> -->
+
+<section fxLayout="column">
+  <div class="sub-header">
+      <div class="app-container text">
+          <h1 class="m-0 " fxLayoutAlign.xs="center">Mechanical Jobs</h1>
+      </div>
+  </div>
+
+  <!-- Desktop View -->
+  <service-app-shell *ngIf="showSpinner"></service-app-shell>
+  <div uk-scrollspy="cls:uk-animation-fade" class="blog-card  app-container alt " *ngFor="let data of mechanical">
+      <div  class="meta">
+          <div class="photo" [ngStyle]="{ 'background-image': 'url(' + data?.images + ')'}"></div>
+          <ul class="details" fxLayoutAlign="center center">
+              <h3>{{data?.title}}</h3>
+          </ul>
+      </div>
+      <div class="description">
+          <h1>{{data?.title}}</h1>
+          <h2>Government Schemes</h2>
+          <p>{{data?.description}}</p>
+          <div fxLayout="column" fxLayoutAlign="start end" fxLayoutAlign.xs="center center">
+              <!-- <h4 class="book-through">Book Through</h4> -->
+              <div fxLayout="row" fxLayoutGap="20px" class="mt-5">
+                  <a [href]="data?.url" target="_blank" ><button class="btn-save">Apply Now</button></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Ḍesktop View -->
+
+
+</section>

@@ -1,0 +1,9 @@
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 599px) {
+    .uk-slideshow-items {
+        min-height: 150.5px !important;
+    }
+}

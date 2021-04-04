@@ -1,0 +1,129 @@
+<header>
+    <div class="app-container header-web" fxLayout="row" fxLayoutAlign="space-between" fxHide.xs>
+        <a fxLayout="row" routerLink="/" class="logo-text" fxLayoutGap="10px">
+            <img loading="lazy" src="assets/logo/logo.png" width="80" height="50">
+            <img loading="lazy" src="assets/logo/govt.png" width="50">
+            <div fxLayout="column" fxLayoutAlign="center">
+                <span class="m-0 logo">Government</span>
+                <span class="m-0  mt-1 logo1">Scheme</span>
+            </div>
+        </a>
+        <div fxLayout="row" fxLayoutGap="40px" fxLayoutAlign="center center">
+            <a class="contain" routerLink="/" (click)="home()"><span class="menu">Home</span></a>
+            <a class="contain" routerLink="/" (click)="service()"><span class="menu">Schemes</span></a>
+            <!-- <a class="contain" routerLink="/" (click)="about()"><span class="menu">About Us</span></a> -->
+            <!-- <a class="contain" routerLink="/" (click)="protfolio()"><span class="menu">Portfolio</span></a> -->
+            <!-- <a class="contain" routerLink="/" (click)="team()"><span class="menu">Team</span></a> -->
+            <a class="contain" (click)="contact()"><span class="menu">Contact Us</span></a>
+        </div>
+    </div>
+
+    <!-- Mobile View -->
+    <div fxLayout="row" fxLayoutAlign="space-between" fxHide fxShow.xs>
+        <div class="mobile-view ml-3">
+            <mat-icon class="menu-icon" (click)="toggelSidenav()">menu</mat-icon>
+        </div>
+        <a routerLink="/" class="brand ">Government <img loading="lazy" src="assets/logo/govt.png" width="20">
+            Scheme</a>
+            <a routerLink="/" class="brand mr-2"> <img loading="lazy" src="assets/logo/logo.png" width="20">
+            </a>
+    </div>
+    <!-- Mobile View -->
+</header>
+
+<!-- Menu -->
+<!-- <div id="home" class="bottom-header" fxHide.xs>
+    <div class="app-container">
+        <div class="top-menu" fxLayout fxLayoutAlign="space-between start">
+            <div fxLayout="row" fxLayoutGap="10px">
+                <ng-container *ngFor="let list of menu">
+                    <div class="item languages-sec1">
+                        <span>Home Appliances</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <div class="app-languages" fxLayout="column">
+                            <div class="lang-container" fxLayout="column" *ngFor="let menu of list?.home_appliances">
+                                <i [routerLink]="menu.url">{{menu?.list}}</i>
+                            </div>
+                        </div>
+                    </div>
+                </ng-container>
+                <ng-container *ngFor="let list of menu">
+                    <div class="item languages-sec">
+                        <span>Mechanical</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <div class="app-languages" fxLayout="column">
+                            <div class="lang-container" fxLayout="column" *ngFor="let menu of list?.mechanical">
+                                <i [routerLink]="menu.url">{{menu?.list}}</i>
+                            </div>
+                        </div>
+                    </div>
+                </ng-container>
+                <ng-container *ngFor="let list of menu">
+
+                    <div class="item languages-sec">
+                        <span>Lighting</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <div class="app-languages" fxLayout="column">
+                            <div class="lang-container" fxLayout="column" *ngFor="let menu of list?.lighting">
+                                <i [routerLink]="menu.url">{{menu?.list}}</i>
+                            </div>
+                        </div>
+                    </div>
+                </ng-container>
+                <ng-container *ngFor="let list of menu">
+
+                    <div class="item languages-sec">
+                        <span>Rental</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <div class="app-languages" fxLayout="column">
+                            <div class="lang-container" fxLayout="column" *ngFor="let menu of list?.rental">
+                                <i [routerLink]="menu.url">{{menu?.list}}</i>
+                            </div>
+                        </div>
+                    </div>
+                </ng-container>
+                <ng-container *ngFor="let list of menu">
+
+                    <div class="item languages-sec">
+                        <span>RO</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <div class="app-languages" fxLayout="column">
+                            <div class="lang-container" fxLayout="column" *ngFor="let menu of list?.ro">
+                                <i [routerLink]="menu.url">{{menu?.list}}</i>
+                            </div>
+                        </div>
+                    </div>
+                </ng-container>
+                <ng-container *ngFor="let list of menu">
+
+                    <div class="item languages-sec">
+                        <span>HVAC</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <div class="app-languages" fxLayout="column">
+                            <div class="lang-container" fxLayout="column" *ngFor="let menu of list?.hvac">
+                                <i [routerLink]="menu.url">{{menu?.list}}</i>
+                            </div>
+                        </div>
+                    </div>
+                </ng-container>
+                <ng-container *ngFor="let list of menu">
+
+                    <div class="item languages-sec">
+                        <span>Security</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <div class="app-languages" fxLayout="column">
+                            <div class="lang-container" fxLayout="column" *ngFor="let menu of list?.security">
+                                <i [routerLink]="menu.url">{{menu?.list}}</i>
+                            </div>
+                        </div>
+                    </div>
+                </ng-container>
+
+                <ng-container *ngFor="let list of menu">
+
+                    <div class="item languages-sec">
+                        <span>Electrical Hardware</span> <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <div class="app-languages" fxLayout="column">
+                            <div class="lang-container" fxLayout="column" *ngFor="let menu of list?.electrical_hardware">
+                                <i [routerLink]="menu.url">{{menu?.list}}</i>
+                            </div>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</div> -->

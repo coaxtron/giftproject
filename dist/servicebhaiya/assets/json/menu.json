@@ -1,0 +1,151 @@
+[{
+    "home_appliances": [{
+            "list": "Cooler",
+            "url": "/service/farmers",
+            "theme": "#075e54"
+        },
+        {
+            "list": "Geyser",
+            "url": "/service/farmers",
+            "theme": "#bdbbc8"
+        },
+        {
+            "list": "Inverter",
+            "url": "/service/farmers",
+            "theme": "#bdbbc8"
+        },
+        {
+            "list": "Juicer Mixer",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        },
+        {
+            "list": "Microwave",
+            "url": "/service/farmers",
+            "theme": "#bdbbc8"
+        },
+        {
+            "list": "Mixer Grinding",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        },
+        {
+            "list": "Washing Machine",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        },
+        { "list": "Iron", "url": "/service/farmers", "theme": "#696969" },
+        {
+            "list": "Electric Kettle",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        },
+        {
+            "list": "Celling Fan",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        },
+        {
+            "list": "Voltage Stabilizer",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        },
+        {
+            "list": "Induction Cooktop",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        },
+        {
+            "list": "T.V / LCD / LED",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        },
+        {
+            "list": "Fridge",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        },
+        {
+            "list": "Toasters",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        },
+        {
+            "list": "Coffee Machine",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        },
+        {
+            "list": "Electrical Sewing Machine",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        },
+        {
+            "list": "Music System",
+            "url": "/service/farmers",
+            "theme": "#696969"
+        }
+    ],
+    "mechanical": [{
+            "list": "All Generators",
+            "url": "/service/mechanical",
+            "theme": "#075e54"
+        },
+        {
+            "list": "Diesel Pump",
+            "url": "/service/mechanical",
+            "theme": "#696969"
+        },
+        {
+            "list": "Bike Repair",
+            "url": "/service/mechanical",
+            "theme": "#696969"
+        }
+    ],
+    "lighting": [
+        { "list": "Lighting", "url": "/service/lighting", "theme": "#075e54" }
+    ],
+    "rental": [
+        { "list": "Ac", "url": "/service/rental", "theme": "#075e54" },
+        { "list": "Fridge", "url": "/service/rental", "theme": "#696969" },
+        {
+            "list": "Diesel Generator",
+            "url": "/service/rental",
+            "theme": "#bdbbc8"
+        },
+        { "list": "Cooler", "url": "/service/rental", "theme": "#bdbbc8" },
+        {
+            "list": "Washing Machine",
+            "url": "/service/rental",
+            "theme": "#bdbbc8"
+        }
+    ],
+    "ro": [{ "list": "RO", "url": "/service/RO", "theme": "#075e54" }],
+    "hvac": [
+        { "list": "Windows Ac", "url": "/service/HVAC", "theme": "#075e54" },
+        { "list": "Split Ac", "url": "/service/HVAC", "theme": "#696969" },
+        { "list": "Ductable Ac", "url": "/service/HVAC", "theme": "#075e54" },
+        { "list": "D freezer", "url": "/service/HVAC", "theme": "#bdbbc8" },
+        { "list": "Water Cooler", "url": "/service/HVAC", "theme": "#696969" },
+        { "list": "Chiller Plant", "url": "/service/HVAC", "theme": "#bdbbc8" }
+    ],
+    "security": [
+        { "list": "CCTV", "url": "/service/security", "theme": "#075e54" }
+    ],
+    "electrical_hardware": [{
+            "list": "Electrical Panel",
+            "url": "/service/electrical-hardware",
+            "theme": "#696969"
+        },
+        {
+            "list": "House wiring",
+            "url": "/service/electrical-hardware",
+            "theme": "#696969"
+        },
+        {
+            "list": "Motor",
+            "url": "/service/electrical-hardware",
+            "theme": "#bdbbc8"
+        }
+    ]
+}]

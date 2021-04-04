@@ -1,0 +1,57 @@
+        .main {
+            // margin-top: 50px;
+        }
+        /* fixed social*/
+        
+        mat-drawer {
+            width: 70%;
+            position: fixed !important;
+        }
+        
+        .scroll-to-top {
+            position: fixed;
+            bottom: 15px;
+            right: 15px;
+            opacity: 0;
+            transition: all .2s ease-in-out;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            background-color: #14579f;
+            color: white;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        .show-scrollTop {
+            opacity: 1;
+            transition: all .2s ease-in-out;
+        }
+        
+        .contact-us {
+            position: fixed;
+            bottom: 100px;
+            right: 15px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+            // opacity: 0;
+            transition: all .2s ease-in-out;
+            .icon {
+                font-size: 30px;
+            }
+        }
+        
+        .whatsapp {
+            position: fixed;
+            background: #4ced69;
+            bottom: 100px;
+            right: 15px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+            transition: all .2s ease-in-out;
+            .icon {
+                font-size: 30px;
+            }
+        }
+        
+        .uk-card-body {
+            padding: 10px 10px;
+        }

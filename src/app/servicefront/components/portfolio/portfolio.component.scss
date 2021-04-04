@@ -1,0 +1,20 @@
+section {
+    img {
+        max-width: 100%;
+        border-radius: 29px;
+    }
+    background-color: #5b5b5b;
+    padding: 80px 0px;
+    h1 {
+        font-size: 35px;
+        font-weight: 500;
+        color: white;
+    }
+    @media only screen and (max-width: 600px) {
+        padding: 25px 0px 0px 0px;
+        h1 {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}

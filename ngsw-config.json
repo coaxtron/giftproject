@@ -1,0 +1,41 @@
+{
+    "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+    "index": "/index.html",
+    "assetGroups": [{
+            "name": "app",
+            "installMode": "prefetch",
+            "resources": {
+                "files": [
+                    "/favicon.ico",
+                    "/index.html",
+                    "/manifest.webmanifest",
+                    "/*.css",
+                    "/*.js"
+                ],
+                "urls": [
+                    "https://cdn.jsdelivr.net/npm/uikit@3.5.6/dist/js/uikit.min.js",
+                    "https://cdn.jsdelivr.net/npm/uikit@3.5.6/dist/js/uikit-icons.min.js",
+                    "/fonts.gstatic.com/**",
+                    "https://kit.fontawesome.com/17c3f9186e.js",
+                    "https://cdn.jsdelivr.net/npm/uikit@3.5.6/dist/css/uikit.min.css"
+                ]
+            }
+        },
+        {
+            "name": "assets",
+            "installMode": "lazy",
+            "updateMode": "prefetch",
+            "resources": {
+                "files": [
+                    "/assets/**",
+                    "/*.(eot|svg|cur|jpg|jpeg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+                ],
+                "urls": [
+                    "/cdnjs.cloudflare.com/ajax/libs/**",
+                    "/maxcdn.bootstrapcdn.com/**",
+                    "/fonts.googleapis.com/**"
+                ]
+            }
+        }
+    ]
+}

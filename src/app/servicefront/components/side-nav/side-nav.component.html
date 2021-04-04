@@ -1,0 +1,43 @@
+<!-- Start side nav -->
+<nav class=" sideNavWidth" fxLayout="column">
+    <a class="profile-info" fxLayout="column" (click)="toggelSidenav()" routerLink="/" fxLayoutGap="10px" fxLayoutAlign="center center">
+        <img loading="lazy" width="100" class="profile-img" src="assets/logo/logo.png" />
+    </a>
+    <!-- <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    All Categories
+                </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="sideNavWidth">
+                <div class="nav-links">
+                    <div class="link" (click)="toggelSidenav()" routerLink="/service/electrical-&-electronics">Home Appliances
+                    </div>
+                    <div class="link" (click)="toggelSidenav()" routerLink="/service/mechanical">Mechanical</div>
+                    <div class="link" (click)="toggelSidenav()" routerLink="/service/lighting">Lighting</div>
+                    <div class="link" (click)="toggelSidenav()" routerLink="/service/rental">Rental</div>
+                    <div class="link" (click)="toggelSidenav()" routerLink="/service/RO">RO</div>
+                    <div class="link" (click)="toggelSidenav()" routerLink="/service/HVAC">HVAC</div>
+                    <div class="link" (click)="toggelSidenav()" routerLink="/service/security">Security</div>
+                    <div class="link" (click)="toggelSidenav()" routerLink="/service/electrical-hardware">Electrical Hardware
+                    </div>
+                </div>
+            </div>
+        </mat-expansion-panel>
+    </mat-accordion> -->
+    <a class="list-group-item" (click)="toggelSidenav()" routerLink="/" (click)="home()"><i
+      class="las la-home"></i>Home</a>
+    <a class="list-group-item" (click)="toggelSidenav()" routerLink="/" (click)="service()"><i
+      class="las la-home"></i>Schemes</a>
+    <a class="list-group-item" (click)="toggelSidenav()" routerLink="/" (click)="about()"><i class="las la-home"></i>About
+    Us</a>
+    <a class="list-group-item" (click)="toggelSidenav()" routerLink="/" (click)="protfolio()"><i
+      class="las la-home"></i>Portfolio</a>
+    <!-- <a class="list-group-item" (click)="toggelSidenav()" routerLink="/" (click)="team()"><i
+      class="las la-home"></i>Team</a> -->
+    <a class="list-group-item" (click)="toggelSidenav()" routerLink="/" (click)="contact()"><i
+      class="las la-home"></i>Contact Us</a>
+</nav>
+
+<!-- Ends side nav -->
